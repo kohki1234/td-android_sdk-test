@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         TreasureData.initializeEncryptionKey("Hello World encryptyion");
         // TreasureData.sharedInstance.enableAutoAppendUniqId();
 
+
         // create a new instance
         td = new TreasureData(this);
 
